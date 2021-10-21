@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: research
 nav: true
 dropdown: true
-children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
+children:
+    - title: COVID-19
+      #permalink: /publications/
+    - title: Wastewater Surveillance
     - title: projects
-      permalink: /projects/
+      #permalink: /projects/
 ---
