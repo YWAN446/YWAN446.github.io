@@ -11,11 +11,11 @@ category: work
 ### Development of SaniPath Exposure Accessment Approach in Accra, Ghana
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure1.png' | relative_url }}" alt="" title="SaniPath Conceptual Diagram"/>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure2.pdf' | relative_url }}" alt="" title="Fecal Microbes Transfer Network"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure2.png' | relative_url }}" alt="" title="Fecal Microbes Transfer Network"/>
     </div>
 </div>
 <div class="caption">
