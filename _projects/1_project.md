@@ -1,7 +1,7 @@
 ---
 layout: page
 title: COVID-19 Transmission
-description: a project to study the heterogeneity of SARS-CoV-2 transmission (i.e., serial interval, reproductive numbers) 1) during early COVID-19 outbreak in mainland China and 2) before and after shelter-in-place and reopening in the state of Georgia, United States.
+description: a project to study the heterogeneity of SARS-CoV-2 transmission (i.e., serial interval, reproductive numbers)
 img: /assets/img/cov_img_001.jpg
 importance: 1
 category: work
