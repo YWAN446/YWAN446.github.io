@@ -45,14 +45,11 @@ COVID-19 is capable of spreading very rapidly. The sizes of outbreak in province
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6a.jpg' | relative_url }}" alt="" title="Spatial patterns of early spread"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6b.jpg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6.jpeg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
     </div>
 </div>
 <div class="caption">
-    Spatial patterns of transmission of severe acute respiratory syndrome coronavirus 2 in Georgia, USA, February–July 2020.
+    Spatial patterns of transmission of severe acute respiratory syndrome coronavirus 2 in Georgia, USA, February–July 2020. A) Date of reaching the peak (local maximum of effective reproduction number) for the first wave; B) spatial distribution of the 5 categories of virus transmission patterns by June 15, 2020. The black lines represent interstate highways.
 </div>
 
 The serial interval and effective reproduction number for coronavirus disease (COVID-19) are heterogenous, varying by demographic characteristics, region, and period. During February 1-July 13, 2020, we identified 4,080 transmission pairs in Georgia, USA, by using contact tracing information from COVID-19 cases reported to the Georgia Department of Public Health. We examined how various transmission characteristics were affected by symptoms, demographics, and period (during shelter-in-place and after subsequent reopening) and estimated the time course of reproduction numbers for all 159 Georgia counties. Transmission varied by time and place but also by persons' sex and race. The mean serial interval decreased from 5.97 days in February-April to 4.40 days in June-July. Younger adults (20-50 years of age) were involved in most transmission events occurring during or after reopening. The shelter-in-place period was not long enough to prevent sustained virus transmission in densely populated urban areas connected by major transportation links. Details of this study were published in *Emerging Infectious Diseases* (<a href="https://wwwnc.cdc.gov/eid/article/27/10/21-0061_article">Wang et al., 2021</a>).
