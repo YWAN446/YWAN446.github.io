@@ -11,10 +11,10 @@ category: work
 ### *Strongly Heterogeneous Transmission of COVID-19 in Mainland China*
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure1.jpeg' | relative_url }}" alt="" title="Estimation of serial interval of COVID-19"/>
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure3.jpeg' | relative_url }}" alt="" title="Reproduction number estimates in early Wuhan outbreak"/>
     </div>
 </div>
