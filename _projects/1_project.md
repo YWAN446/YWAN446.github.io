@@ -7,6 +7,21 @@ importance: 1
 category: work
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure5.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure6.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SP_Figure7.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Photos taken at Accra, Ghana (2011).
+</div>
+
 ## Phase 1
 ### *Development of SaniPath Exposure Accessment Approach in Accra, Ghana*
 
@@ -59,18 +74,3 @@ Please check the <a href="https://sites.google.com/view/sanipathwiki">SaniPath w
 During 2014 to 2019, the SaniPath Exposure Assessment Tool, a standardized set of methods to evaluate risk of exposure to fecal contamination in the urban environment through multiple exposure pathways, was deployed in 45 neighborhoods in ten cities, including Accra and Kumasi, Ghana; Vellore, India; Maputo, Mozambique; Siem Reap, Cambodia; Atlanta, United States; Dhaka, Bangladesh; Lusaka, Zambia; Kampala, Uganda; Dakar, Senegal. The objective of this study is to assess and compare risk of exposure to fecal contamination via multiple pathways in ten cities. In total, 4053 environmental samples, 4586 household surveys, 128 community surveys, and 124 school surveys were collected. *E.* coli concentrations were measured in environmental samples as an indicator of fecal contamination magnitude. Bayesian methods were used to estimate the distributions of fecal contamination concentration and contact frequency. Exposure to fecal contamination was estimated by the Monte Carlo method. The contamination levels of ten environmental compartments, frequency of contact with those compartments for adults and children, and estimated exposure to fecal contamination through any of the surveyed environmental pathways were compared across cities and neighborhoods. Distribution of fecal contamination in the environment and human contact behavior varied by city. Universally, food pathways were the most common dominant route of exposure to fecal contamination across cities in low-income and lower-middle-income countries. Risks of fecal exposure via water pathways, such as open drains, flood water, and municipal drinking water, were site-specific and often limited to smaller geographic areas (i.e., neighborhoods) instead of larger areas (i.e., cities). Knowledge of the relative contribution to fecal exposure from multiple pathways, and the environmental contamination level and frequency of contact for those “dominant pathways” could provide guidance for Water, Sanitation, and Hygiene (WASH) programming and investments and enable local governments and municipalities to improve intervention strategies to reduce the risk of exposure to fecal contamination. Details of this study were published in the *Science of the Total Environment* <a href="https://www.sciencedirect.com/science/article/pii/S0048969721063518">Wang et al. 2021</a>.
 
 The results of the SaniPath multi-city exposure assessment is available in our <a href="https://www.sanipath.net/results-dashboard">dashboard</a>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
