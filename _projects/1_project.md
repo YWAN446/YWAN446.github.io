@@ -12,10 +12,10 @@ category: work
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure1.jpg' | relative_url }}" alt="" title="Estimation of serial interval of COVID-19"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure1.jpeg' | relative_url }}" alt="" title="Estimation of serial interval of COVID-19"/>
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure3.jpg' | relative_url }}" alt="" title="Reproduction number estimates in early Wuhan outbreak"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure3.jpeg' | relative_url }}" alt="" title="Reproduction number estimates in early Wuhan outbreak"/>
     </div>
 </div>
 <div class="caption">
@@ -28,10 +28,10 @@ In addition to reported numbers of new cases, we have been able to assemble deta
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure4.jpg' | relative_url }}" alt="" title="SaniPath Conceptual Diagram"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure4.jpeg' | relative_url }}" alt="" title="SaniPath Conceptual Diagram"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure5.jpg' | relative_url }}" alt="" title="Fecal Microbes Transfer Network"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_Figure5.jpeg' | relative_url }}" alt="" title="Fecal Microbes Transfer Network"/>
     </div>
 </div>
 <div class="caption">
@@ -45,7 +45,7 @@ COVID-19 is capable of spreading very rapidly. The sizes of outbreak in province
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6.jpg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6.jpeg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
     </div>
 </div>
 <div class="caption">
@@ -56,7 +56,7 @@ The serial interval and effective reproduction number for coronavirus disease (C
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure2.jpg' | relative_url }}" alt="" title="Transmission patterns"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure2.jpeg' | relative_url }}" alt="" title="Transmission patterns"/>
     </div>
 </div>
 <div class="caption">
