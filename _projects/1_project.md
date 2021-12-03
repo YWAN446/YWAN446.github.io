@@ -45,7 +45,10 @@ COVID-19 is capable of spreading very rapidly. The sizes of outbreak in province
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6.jpeg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6a.jpg' | relative_url }}" alt="" title="Spatial patterns of early spread"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cov_ga_Figure6b.jpg' | relative_url }}" alt="" title="Spatial patterns of transmission"/>
     </div>
 </div>
 <div class="caption">
