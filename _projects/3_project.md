@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wastewater Surveillance
-description: a project of wastewater surveillance for pathogens (i.e., SARS-CoV-2, *S.* Typhi)
+description: a project of wastewater surveillance for pathogens (i.e., SARS-CoV-2, S. Typhi)
 img: /assets/img/WWS_img_001.jpg
 importance: 1
 category: work
