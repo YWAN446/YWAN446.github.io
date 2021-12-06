@@ -1,79 +1,38 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Wastewater Surveillance
+description: a project of wastewater surveillance for pathogens (i.e., SARS-CoV-2, *S.* Typhi)
+img: /assets/img/WWS_img_001.jpg
+importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Part 1
+### *Designing a Typhoid Environmental Surveillance Study: A Simulation Model for Optimum Sampling Site Allocation*
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Figure2.jpg' | relative_url }}" alt="" title="SaniPath Conceptual Diagram"/>
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Figure3.jpg' | relative_url }}" alt="" title="Fecal Microbes Transfer Network"/>
+    </div>
+</div>
+<div class="caption">
+    Diagram of feces flow from toilets to pumping station through the underground sewerage network (left) and Life-cycle diagram of S. Typhi in the sewerage system including: the generation of shedders, the assignment of shedders to shared toilets that are connected to the hypothetical sewerage network, the amount of S. Typhi shed that enters and exits the sewerage system (right).
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Environmental surveillance can be used for monitoring enteric disease in a population by detecting pathogens, shed by infected people, in sewage. Detection of pathogens depends on many factors: infection rates and shedding in the population, pathogen fate in the sewerage network, and also sampling sites, sample size, and assay sensitivity. This complexity makes the design of sampling strategies challenging, which creates a need for mathematical modeling to guide decision making.
+
+In the present study, a model was developed to simulate pathogen shedding, pathogen transport and fate in the sewerage network, sewage sampling, and detection of the pathogen. The simulation study used Salmonella enterica serovar Typhi (S. Typhi) as the target pathogen and two wards in Kolkata, India as the study area. Five different sampling strategies were evaluated for their sensitivity of detecting S. Typhi, by sampling unit: sewage pumping station, shared toilet, adjacent multiple shared toilets (primary sampling unit), pumping station + shared toilets, pumping station + primary sampling units. Sampling strategies were studied in eight scenarios with different geographic clustering of risk, pathogen loss (decay, leakage), and sensitivity of detection assays. A novel adaptive sampling site allocation method was designed, that updates the locations of sampling sites based on their performance. We then demonstrated how the simulation model can be used to predict the performance of environmental surveillance and how it is improved by optimizing the allocation of sampling sites.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Figure1.jpeg' | relative_url }}" alt="" title="Adaptive Sampling Allocation"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Heatmaps of sampling site distributions along with the update process given lambda=40 new shedders per day. The heatmap has two layers: the base layer has the hypothetical sewerage network and toilets. The red dots represent the shared toilets, and the size of a red dot represents the probability of a *S.* Typhi shedder defecating at this toilet. The second layer shows the contours of sampling sites distribution in blue. The contours of sampling sites will change with update process and over time will move to the geographic locations with the most shedders.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+The results are summarized as a decision tree to guide the sampling strategy based on disease incidence, geographic distribution of risk, pathogen loss, and the sensitivity of the detection assay. The adaptive sampling site allocation method consistently outperformed alternatives with fixed site locations in most scenarios. In some cases, the optimum allocation method increased the median sensitivity from 45% to 90% within 20 updates.
