@@ -28,7 +28,7 @@ In the present study, a model was developed to simulate pathogen shedding, patho
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Figure1.jpeg' | relative_url }}" alt="" title="Adaptive Sampling Allocation"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Figure1.jpg' | relative_url }}" alt="" title="Adaptive Sampling Allocation"/>
     </div>
 </div>
 <div class="caption">
@@ -36,3 +36,17 @@ In the present study, a model was developed to simulate pathogen shedding, patho
 </div>
 
 The results are summarized as a decision tree to guide the sampling strategy based on disease incidence, geographic distribution of risk, pathogen loss, and the sensitivity of the detection assay. The adaptive sampling site allocation method consistently outperformed alternatives with fixed site locations in most scenarios. In some cases, the optimum allocation method increased the median sensitivity from 45% to 90% within 20 updates.
+
+## Part 2
+### *Designing a Multilevel COVID-19 Wastewater Surveillance Study in Atlanta*
+
+Monitoring SARS-CoV-2 in wastewater is a valuable approach to track COVID-19 transmission. Designing wastewater surveillance (WWS) with representative sampling sites and quantifiable results requires knowledge of the sewerage system and virus fate and transport. We developed a multi-level WWS system to track COVID-19 in Atlanta using an adaptive nested sampling strategy. From March 2021 to April 2022, 868 wastewater samples were collected from influent lines to wastewater treatment facilities and upstream community manholes. Variations in SARS-CoV-2 concentrations in influent line samples preceded similar variations in numbers of reported COVID-19 cases in the corresponding catchment areas. Community sites under nested sampling represented mutually-exclusive catchment areas. Community sites with high SARS-CoV-2 detection rates in wastewater covered high COVID-19 incidence areas, and adaptive sampling enabled identification and tracing of COVID-19 hotspots. This study demonstrates how a well-designed WWS provides actionable information including early warning of surges in cases and identification of disease hotspots.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/WWS_Atl_Fig1.jpg' | relative_url }}" alt="" title="Illustration of Adaptive Sampling Allocation"/>
+    </div>
+</div>
+<div class="caption">
+    The top plot shows the catchment areas of each community site nested within the overall catchment of the influent line site (in gray). The black lines represent the sewer network lines. The bottom plots shows the heatmap of reported COVID-19 cases between September 1st 2021–May 8th 2022 within the influent catchment area.
+</div>
