@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: collection of my math/stats models and hobby models
 nav: true
-display_categories: [Work, Fun]
+display_categories: [work, fun]
 horizontal: false
 ---
 <div class="projects">
