@@ -5,8 +5,9 @@ nav: true
 dropdown: true
 children:
     - title: COVID-19
-      #permalink: /publications/
+      permalink: /publications/1_project/
+    - title: Multipathway Exposure Assessment
+      permalink: /publications/2_project/
     - title: Wastewater Surveillance
-    - title: projects
-      #permalink: /projects/
+      permalink: /publications/3_project/
 ---
