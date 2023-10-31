@@ -12,7 +12,7 @@
   Yuke  Wang
 
 
-  | blog
+  | Wastewater Surveillance
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕹️</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/3_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -102,18 +102,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -196,8 +192,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -216,56 +212,57 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Wastewater Surveillance</h1>
+    <p class="post-description">a project of wastewater surveillance for pathogens (i.e., SARS-CoV-2, S. Typhi)</p>
+  </header>
 
+  <article>
+    <h2 id="part-1">Part 1</h2>
+<h3 id="designing-a-typhoid-environmental-surveillance-study-a-simulation-model-for-optimum-sampling-site-allocation"><em>Designing a Typhoid Environmental Surveillance Study: A Simulation Model for Optimum Sampling Site Allocation</em></h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a></h3>
-        <p class="post-meta">July 4, 2021</p>
-        <p>an example of a blog post with diagrams</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-  </ul>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/WWS_Figure2.jpg" alt="" title="SaniPath Conceptual Diagram">
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/WWS_Figure3.jpg" alt="" title="Fecal Microbes Transfer Network">
+    </div>
+</div>
+<div class="caption">
+    Diagram of feces flow from toilets to pumping station through the underground sewerage network (left) and Life-cycle diagram of S. Typhi in the sewerage system including: the generation of shedders, the assignment of shedders to shared toilets that are connected to the hypothetical sewerage network, the amount of S. Typhi shed that enters and exits the sewerage system (right).
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>Environmental surveillance can be used for monitoring enteric disease in a population by detecting pathogens, shed by infected people, in sewage. Detection of pathogens depends on many factors: infection rates and shedding in the population, pathogen fate in the sewerage network, and also sampling sites, sample size, and assay sensitivity. This complexity makes the design of sampling strategies challenging, which creates a need for mathematical modeling to guide decision making.</p>
 
+<p>In the present study, a model was developed to simulate pathogen shedding, pathogen transport and fate in the sewerage network, sewage sampling, and detection of the pathogen. The simulation study used Salmonella enterica serovar Typhi (S. Typhi) as the target pathogen and two wards in Kolkata, India as the study area. Five different sampling strategies were evaluated for their sensitivity of detecting S. Typhi, by sampling unit: sewage pumping station, shared toilet, adjacent multiple shared toilets (primary sampling unit), pumping station + shared toilets, pumping station + primary sampling units. Sampling strategies were studied in eight scenarios with different geographic clustering of risk, pathogen loss (decay, leakage), and sensitivity of detection assays. A novel adaptive sampling site allocation method was designed, that updates the locations of sampling sites based on their performance. We then demonstrated how the simulation model can be used to predict the performance of environmental surveillance and how it is improved by optimizing the allocation of sampling sites.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/WWS_Figure1.jpg" alt="" title="Adaptive Sampling Allocation">
+    </div>
+</div>
+<div class="caption">
+    Heatmaps of sampling site distributions along with the update process given lambda=40 new shedders per day. The heatmap has two layers: the base layer has the hypothetical sewerage network and toilets. The red dots represent the shared toilets, and the size of a red dot represents the probability of a *S.* Typhi shedder defecating at this toilet. The second layer shows the contours of sampling sites distribution in blue. The contours of sampling sites will change with update process and over time will move to the geographic locations with the most shedders.
+</div>
+
+<p>The results are summarized as a decision tree to guide the sampling strategy based on disease incidence, geographic distribution of risk, pathogen loss, and the sensitivity of the detection assay. The adaptive sampling site allocation method consistently outperformed alternatives with fixed site locations in most scenarios. In some cases, the optimum allocation method increased the median sensitivity from 45% to 90% within 20 updates.</p>
+
+<h2 id="part-2">Part 2</h2>
+<h3 id="designing-a-multilevel-covid-19-wastewater-surveillance-study-in-atlanta"><em>Designing a Multilevel COVID-19 Wastewater Surveillance Study in Atlanta</em></h3>
+
+<p>Monitoring SARS-CoV-2 in wastewater is a valuable approach to track COVID-19 transmission. Designing wastewater surveillance (WWS) with representative sampling sites and quantifiable results requires knowledge of the sewerage system and virus fate and transport. We developed a multi-level WWS system to track COVID-19 in Atlanta using an adaptive nested sampling strategy. From March 2021 to April 2022, 868 wastewater samples were collected from influent lines to wastewater treatment facilities and upstream community manholes. Variations in SARS-CoV-2 concentrations in influent line samples preceded similar variations in numbers of reported COVID-19 cases in the corresponding catchment areas. Community sites under nested sampling represented mutually-exclusive catchment areas. Community sites with high SARS-CoV-2 detection rates in wastewater covered high COVID-19 incidence areas, and adaptive sampling enabled identification and tracing of COVID-19 hotspots. This study demonstrates how a well-designed WWS provides actionable information including early warning of surges in cases and identification of disease hotspots.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/WWS_Atl_Fig1.jpg" alt="" title="Illustration of Adaptive Sampling Allocation">
+    </div>
+</div>
+<div class="caption">
+    The top plot shows the catchment areas of each community site nested within the overall catchment of the influent line site (in gray). The black lines represent the sewer network lines. The bottom plots shows the heatmap of reported COVID-19 cases between September 1st 2021–May 8th 2022 within the influent catchment area.
+</div>
+
+  </article>
 
 </div>
 
@@ -276,8 +273,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Yuke  Wang.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    © Copyright 2023 Yuke  Wang.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
 
     
     

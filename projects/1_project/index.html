@@ -12,7 +12,7 @@
   Yuke  Wang
 
 
-  | blog
+  | COVID-19 Transmission
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕹️</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -102,18 +102,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -196,8 +192,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -216,56 +212,69 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">COVID-19 Transmission</h1>
+    <p class="post-description">a project to study the heterogeneity of SARS-CoV-2 transmission (i.e., serial interval, reproductive numbers)</p>
+  </header>
 
+  <article>
+    <h2 id="part-1">Part 1</h2>
+<h3 id="strongly-heterogeneous-transmission-of-covid-19-in-mainland-china"><em>Strongly Heterogeneous Transmission of COVID-19 in Mainland China</em></h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a></h3>
-        <p class="post-meta">July 4, 2021</p>
-        <p>an example of a blog post with diagrams</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-  </ul>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_Figure1.jpeg" alt="" title="Estimation of serial interval of COVID-19">
+    </div>
+    <div class="col-sm-7 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_Figure3.jpeg" alt="" title="Reproduction number estimates in early Wuhan outbreak">
+    </div>
+</div>
+<div class="caption">
+    The estimation of the serial interval distribution of COVID-19 in early outbreak (left) and reproduction number estimates for the early outbreak in Wuhan, Hubei province (right).
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>The outbreak of novel coronavirus disease 2019 (COVID-19) started in the city of Wuhan, China, with a period of rapid initial spread. Transmission on a regional and then national scale was promoted by intense travel during the holiday period of the Chinese New Year. We studied the variation in transmission of COVID-19, locally in Wuhan, as well as on a larger spatial scale, among different cities and even among provinces in mainland China.</p>
 
+<p>In addition to reported numbers of new cases, we have been able to assemble detailed contact data for some of the initial clusters of COVID-19. This enabled estimation of the serial interval for clinical cases, as well as reproduction numbers for small and large regions. We estimated the average serial interval was 4.8 days. For early transmission in Wuhan, any infectious case produced as many as four new cases, transmission outside Wuhan was less intense, with reproduction numbers below two. During the rapid growth phase of the outbreak the region of Wuhan city acted as a hot spot, generating new cases upon contact, while locally, in other provinces, transmission was low.</p>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_Figure4.jpeg" alt="" title="SaniPath Conceptual Diagram">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_Figure5.jpeg" alt="" title="Fecal Microbes Transfer Network">
+    </div>
+</div>
+<div class="caption">
+    Transmission in provinces in China (left) and transmission in cities in Guangdong province (right): (A) average reproduction numbers and (B) estimated numbers of cases imported (linked to) Wuhan.
+</div>
+
+<p>COVID-19 is capable of spreading very rapidly. The sizes of outbreak in provinces of mainland China mainly depended on the numbers of cases imported from Wuhan as the local reproduction numbers were low. The COVID-19 epidemic should be controllable with appropriate interventions (suspension of public transportation, cancellation of mass gatherings, implementation of surveillance and testing, and promotion of personal hygiene and face mask use). Details of this study were published in the <em>Frontiers in Medicine</em> (<a href="https://www.frontiersin.org/articles/10.3389/fmed.2020.00329/full" target="_blank" rel="noopener noreferrer">Wang et al. 2020</a>).</p>
+
+<h2 id="part-2">Part 2</h2>
+<h3 id="sars-cov-2-transmission-in-georgia-usa-february-1-july-13-2020"><em>SARS-CoV-2 Transmission in Georgia, USA, February 1-July 13, 2020</em></h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_ga_Figure6.jpeg" alt="" title="Spatial patterns of transmission">
+    </div>
+</div>
+<div class="caption">
+    Spatial patterns of transmission of severe acute respiratory syndrome coronavirus 2 in Georgia, USA, February–July 2020. A) Date of reaching the peak (local maximum of effective reproduction number) for the first wave; B) spatial distribution of the 5 categories of virus transmission patterns by June 15, 2020. The black lines represent interstate highways.
+</div>
+
+<p>The serial interval and effective reproduction number for coronavirus disease (COVID-19) are heterogenous, varying by demographic characteristics, region, and period. During February 1-July 13, 2020, we identified 4,080 transmission pairs in Georgia, USA, by using contact tracing information from COVID-19 cases reported to the Georgia Department of Public Health. We examined how various transmission characteristics were affected by symptoms, demographics, and period (during shelter-in-place and after subsequent reopening) and estimated the time course of reproduction numbers for all 159 Georgia counties. Transmission varied by time and place but also by persons’ sex and race. The mean serial interval decreased from 5.97 days in February-April to 4.40 days in June-July. Younger adults (20-50 years of age) were involved in most transmission events occurring during or after reopening. The shelter-in-place period was not long enough to prevent sustained virus transmission in densely populated urban areas connected by major transportation links. Details of this study were published in <em>Emerging Infectious Diseases</em> (<a href="https://wwwnc.cdc.gov/eid/article/27/10/21-0061_article" target="_blank" rel="noopener noreferrer">Wang et al., 2021</a>).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cov_ga_Figure2.jpeg" alt="" title="Transmission patterns">
+    </div>
+</div>
+<div class="caption">
+    Patterns of severe acute respiratory syndrome coronavirus 2 transmission by patient age (A), sex (B), and race (B), based on 4,080 tracked pairs of coronavirus disease cases from Georgia, USA, during February–July 2020.
+</div>
+
+  </article>
 
 </div>
 
@@ -276,8 +285,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Yuke  Wang.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    © Copyright 2023 Yuke  Wang.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
 
     
     
